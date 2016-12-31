@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "google" verbose="1">
+	<test name = "googleTest">
+	
+		<classes>
+			<class name ="TestCases.GmailLogIn">
+				<methods>
+				 <include name="logIn"></include>
+				 <exclude name="logout"></exclude>
+				</methods>
+			</class>
+			
+			
+			<class name ="TestCases.GmailCreate">
+				<methods>
+				 <include name="logInCreate"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+</suite>
