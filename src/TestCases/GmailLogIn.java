@@ -15,7 +15,7 @@ public class GmailLogIn extends BaseTest {
 		
 		SignInGoogleAccountPage signAccountPage = new SignInGoogleAccountPage(driver);
 		signAccountPage.getuserName().sendKeys(username);
-		sleepTest(100000);
+		sleepTest(1000);
 
 		
 		signAccountPage.getnextButton().click();

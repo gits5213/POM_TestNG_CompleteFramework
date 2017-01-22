@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="google" duration-ms="35337" started-at="2016-12-25T15:50:52Z" finished-at="2016-12-25T15:51:27Z">
+  <suite name="google" duration-ms="34925" started-at="2017-01-01T17:53:14Z" finished-at="2017-01-01T17:53:49Z">
     <groups>
     </groups>
-    <test name="googleTest" duration-ms="35337" started-at="2016-12-25T15:50:52Z" finished-at="2016-12-25T15:51:27Z">
+    <test name="googleTest" duration-ms="34925" started-at="2017-01-01T17:53:14Z" finished-at="2017-01-01T17:53:49Z">
       <class name="TestCases.GmailCreate">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="beforeClass" is-config="true" duration-ms="3247" started-at="2016-12-25T10:51:14Z" finished-at="2016-12-25T10:51:18Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="beforeClass" is-config="true" duration-ms="5762" started-at="2017-01-01T12:53:33Z" finished-at="2017-01-01T12:53:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="beforeMethod" is-config="true" duration-ms="4656" started-at="2016-12-25T10:51:18Z" finished-at="2016-12-25T10:51:22Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="beforeMethod" is-config="true" duration-ms="2790" started-at="2017-01-01T12:53:38Z" finished-at="2017-01-01T12:53:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="logInCreate()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="logInCreate" duration-ms="4133" started-at="2016-12-25T10:51:22Z" finished-at="2016-12-25T10:51:26Z">
+        <test-method status="PASS" signature="logInCreate()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="logInCreate" duration-ms="4202" started-at="2017-01-01T12:53:41Z" finished-at="2017-01-01T12:53:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInCreate -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-12-25T10:51:26Z" finished-at="2016-12-25T10:51:26Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-01-01T12:53:45Z" finished-at="2017-01-01T12:53:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="afterClass" is-config="true" duration-ms="833" started-at="2016-12-25T10:51:26Z" finished-at="2016-12-25T10:51:27Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="afterClass" is-config="true" duration-ms="3732" started-at="2017-01-01T12:53:45Z" finished-at="2017-01-01T12:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCases.GmailCreate -->
       <class name="TestCases.GmailLogIn">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="beforeClass" is-config="true" duration-ms="3965" started-at="2016-12-25T10:50:52Z" finished-at="2016-12-25T10:50:56Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="beforeClass" is-config="true" duration-ms="6710" started-at="2017-01-01T12:53:14Z" finished-at="2017-01-01T12:53:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="beforeMethod" is-config="true" duration-ms="3100" started-at="2016-12-25T10:50:56Z" finished-at="2016-12-25T10:50:59Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="beforeMethod" is-config="true" duration-ms="2552" started-at="2017-01-01T12:53:21Z" finished-at="2017-01-01T12:53:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="logIn(java.lang.String)[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="logIn" duration-ms="14276" started-at="2016-12-25T10:50:59Z" data-provider="LogInTest" finished-at="2016-12-25T10:51:13Z">
+        <test-method status="PASS" signature="logIn(java.lang.String)[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="logIn" duration-ms="5473" started-at="2017-01-01T12:53:23Z" data-provider="LogInTest" finished-at="2017-01-01T12:53:29Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-12-25T10:51:13Z" finished-at="2016-12-25T10:51:13Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-01-01T12:53:29Z" finished-at="2017-01-01T12:53:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="afterClass" is-config="true" duration-ms="1093" started-at="2016-12-25T10:51:13Z" finished-at="2016-12-25T10:51:14Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="afterClass" is-config="true" duration-ms="3659" started-at="2017-01-01T12:53:29Z" finished-at="2017-01-01T12:53:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
