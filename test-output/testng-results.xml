@@ -1,62 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="1" failed="0" ignored="3" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="google" duration-ms="34925" started-at="2017-01-01T17:53:14Z" finished-at="2017-01-01T17:53:49Z">
+  <suite name="spotify" duration-ms="25083" started-at="2017-01-30T03:36:21Z" finished-at="2017-01-30T03:36:46Z">
     <groups>
     </groups>
-    <test name="googleTest" duration-ms="34925" started-at="2017-01-01T17:53:14Z" finished-at="2017-01-01T17:53:49Z">
-      <class name="TestCases.GmailCreate">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="beforeClass" is-config="true" duration-ms="5762" started-at="2017-01-01T12:53:33Z" finished-at="2017-01-01T12:53:38Z">
+    <test name="spotifyUITest" duration-ms="25083" started-at="2017-01-30T03:36:21Z" finished-at="2017-01-30T03:36:46Z">
+      <class name="TestCases.SignInTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.SignInTest@464bee09]" name="beforeClass" is-config="true" duration-ms="3622" started-at="2017-01-29T22:36:21Z" finished-at="2017-01-29T22:36:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="beforeMethod" is-config="true" duration-ms="2790" started-at="2017-01-01T12:53:38Z" finished-at="2017-01-01T12:53:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.SignInTest@464bee09]" name="beforeMethod" is-config="true" duration-ms="1028" started-at="2017-01-29T22:36:24Z" finished-at="2017-01-29T22:36:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="logInCreate()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="logInCreate" duration-ms="4202" started-at="2017-01-01T12:53:41Z" finished-at="2017-01-01T12:53:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInCreate -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-01-01T12:53:45Z" finished-at="2017-01-01T12:53:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.GmailCreate@68c4039c]" name="afterClass" is-config="true" duration-ms="3732" started-at="2017-01-01T12:53:45Z" finished-at="2017-01-01T12:53:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCases.GmailCreate -->
-      <class name="TestCases.GmailLogIn">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="beforeClass" is-config="true" duration-ms="6710" started-at="2017-01-01T12:53:14Z" finished-at="2017-01-01T12:53:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="beforeMethod" is-config="true" duration-ms="2552" started-at="2017-01-01T12:53:21Z" finished-at="2017-01-01T12:53:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="logIn(java.lang.String)[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="logIn" duration-ms="5473" started-at="2017-01-01T12:53:23Z" data-provider="LogInTest" finished-at="2017-01-01T12:53:29Z">
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SignInTest@464bee09]" name="signIn" duration-ms="18318" started-at="2017-01-29T22:36:25Z" data-provider="spotifySignIn" finished-at="2017-01-29T22:36:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[remoteITUniversity]]>
+                <![CDATA[zaman_5213]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shahnewaz1@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-01-01T12:53:29Z" finished-at="2017-01-01T12:53:29Z">
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.SignInTest@464bee09]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-01-29T22:36:44Z" finished-at="2017-01-29T22:36:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.GmailLogIn@3532ec19]" name="afterClass" is-config="true" duration-ms="3659" started-at="2017-01-01T12:53:29Z" finished-at="2017-01-01T12:53:33Z">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:TestCases.SignInTest@464bee09]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-01-29T22:36:44Z" finished-at="2017-01-29T22:36:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This is login page! expected [https://accounts.spotify.com/en_US/login?continue=http:%2F%2Fsupport.spotify.com%2Fus%2F] but found [https://support.spotify.com/us/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This is login page! expected [https://accounts.spotify.com/en_US/login?continue=http:%2F%2Fsupport.spotify.com%2Fus%2F] but found [https://support.spotify.com/us/]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at TestCases.BaseTest.beforeMethod(BaseTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SignInTest@464bee09]" name="signIn" duration-ms="1" started-at="2017-01-29T22:36:46Z" data-provider="spotifySignIn" finished-at="2017-01-29T22:36:46Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This is login page! expected [https://accounts.spotify.com/en_US/login?continue=http:%2F%2Fsupport.spotify.com%2Fus%2F] but found [https://support.spotify.com/us/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This is login page! expected [https://accounts.spotify.com/en_US/login?continue=http:%2F%2Fsupport.spotify.com%2Fus%2F] but found [https://support.spotify.com/us/]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at TestCases.BaseTest.beforeMethod(BaseTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestCases.SignInTest@464bee09]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-01-29T22:36:46Z" finished-at="2017-01-29T22:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:TestCases.SignInTest@464bee09]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-01-29T22:36:46Z" finished-at="2017-01-29T22:36:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- TestCases.GmailLogIn -->
-    </test> <!-- googleTest -->
-  </suite> <!-- google -->
+      </class> <!-- TestCases.SignInTest -->
+    </test> <!-- spotifyUITest -->
+  </suite> <!-- spotify -->
 </testng-results>

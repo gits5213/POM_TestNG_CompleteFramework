@@ -1,23 +1,34 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name = "google" verbose="1">
-	<test name = "googleTest">
+<suite name = "spotify" verbose="1">
+	<test name = "spotifyUITest">
 	
 		<classes>
-			<class name ="TestCases.GmailLogIn">
+			<class name ="TestCases.SingUpTest">
 				<methods>
-				 <include name="logIn"></include>
-				 <exclude name="logout"></exclude>
+				 <exclude name="signUp" />
 				</methods>
 			</class>
 			
-			
-			<class name ="TestCases.GmailCreate">
+			<class name ="TestCases.SignInTest">
 				<methods>
-				 <include name="logInCreate"></include>
+				<include name="signIn" />
 				</methods>
 			</class>
+			
+			<class name ="TestCases.FlashPlayerWork">
+				<methods>
+				<exclude name="flashPlayerWork" />
+				</methods>
+			</class>
+
+			<class name ="TestCases.SearchTest">
+				<methods>
+				<exclude name="searchTest" />
+				</methods>
+			</class>
+
 
 		</classes>
 	</test>

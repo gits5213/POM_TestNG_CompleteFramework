@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-google">
-              <span class="suite-name border-passed">google</span>
+            <a href="#" class="navigator-link" panel-name="suite-spotify">
+              <span class="suite-name border-skipped">spotify</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-google">
-                    <span>C:\Users\Md. Shahnewaz Zaman\JavaLecture\CompleteFramework\testNG_Suite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-spotify">
+                    <span>C:\SpotifyUITest\testNG_Suite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-google">
+                  <a href="#" class="navigator-link " panel-name="testlist-spotify">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-google">
+                  <a href="#" class="navigator-link " panel-name="group-spotify">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-google">
+                  <a href="#" class="navigator-link " panel-name="times-spotify">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-google">
+                  <a href="#" class="navigator-link " panel-name="reporter-spotify">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-google">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-spotify">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-google">
+                  <a href="#" class="navigator-link " panel-name="chronological-spotify">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,26 +91,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-spotify" class="hide-methods skipped suite-spotify"> (hide)</a> <!-- hide-methods skipped suite-spotify -->
+                      <a href="#" panel-name="suite-spotify" class="show-methods skipped suite-spotify"> (show)</a> <!-- show-methods skipped suite-spotify -->
+                    </span>
+                    <div class="method-list-content skipped suite-spotify">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-spotify" title="TestCases.SignInTest" hash-for-method="signIn(null, null)">signIn(null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-spotify -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-google" class="hide-methods passed suite-google"> (hide)</a> <!-- hide-methods passed suite-google -->
-                      <a href="#" panel-name="suite-google" class="show-methods passed suite-google"> (show)</a> <!-- show-methods passed suite-google -->
+                      <a href="#" panel-name="suite-spotify" class="hide-methods passed suite-spotify"> (hide)</a> <!-- hide-methods passed suite-spotify -->
+                      <a href="#" panel-name="suite-spotify" class="show-methods passed suite-spotify"> (show)</a> <!-- show-methods passed suite-spotify -->
                     </span>
-                    <div class="method-list-content passed suite-google">
+                    <div class="method-list-content passed suite-spotify">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-google" title="TestCases.GmailLogIn" hash-for-method="logIn(remoteITUniversity)">logIn(remoteITUniversity)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-spotify" title="TestCases.SignInTest" hash-for-method="signIn(zaman_5213, Shahnewaz1@123)">signIn(zaman_5213, Shahnewaz1@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-google" title="TestCases.GmailCreate" hash-for-method="logInCreate">logInCreate</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-google -->
+                    </div> <!-- method-list-content passed suite-spotify -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,95 +130,109 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-google" class="panel google">
-          <div class="suite-google-class-passed">
+        <div panel-name="suite-spotify" class="panel spotify">
+          <div class="suite-spotify-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.GmailLogIn</span>
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.SignInTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logIn(remoteITUniversity)">
-                  </a> <!-- logIn(remoteITUniversity) -->
-                  <span class="method-name">logIn</span>
-                  <span class="parameters">(remoteITUniversity)</span>
+                  <a name="signIn(null, null)">
+                  </a> <!-- signIn(null, null) -->
+                  <span class="method-name">signIn</span>
+                  <span class="parameters">(null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: This is login page! expected [https://accounts.spotify.com/en_US/login?continue=http:%2F%2Fsupport.spotify.com%2Fus%2F] but found [https://support.spotify.com/us/]
+	at TestCases.BaseTest.beforeMethod(BaseTest.java:37)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-google-class-passed -->
-          <div class="suite-google-class-passed">
+          </div> <!-- suite-spotify-class-skipped -->
+          <div class="suite-spotify-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestCases.GmailCreate</span>
+              <span class="class-name">TestCases.SignInTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logInCreate">
-                  </a> <!-- logInCreate -->
-                  <span class="method-name">logInCreate</span>
+                  <a name="signIn(zaman_5213, Shahnewaz1@123)">
+                  </a> <!-- signIn(zaman_5213, Shahnewaz1@123) -->
+                  <span class="method-name">signIn</span>
+                  <span class="parameters">(zaman_5213, Shahnewaz1@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-google-class-passed -->
-        </div> <!-- panel google -->
-        <div panel-name="test-xml-google" class="panel">
+          </div> <!-- suite-spotify-class-passed -->
+        </div> <!-- panel spotify -->
+        <div panel-name="test-xml-spotify" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Md. Shahnewaz Zaman\JavaLecture\CompleteFramework\testNG_Suite.xml</span>
+            <span class="header-content">C:\SpotifyUITest\testNG_Suite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;google&quot;&gt;
-  &lt;test name=&quot;googleTest&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;spotify&quot;&gt;
+  &lt;test name=&quot;spotifyUITest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestCases.GmailLogIn&quot;&gt;
+      &lt;class name=&quot;TestCases.SingUpTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;logIn&quot;/&gt;
-          &lt;exclude name=&quot;logout&quot;/&gt;
+          &lt;exclude name=&quot;signUp&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- TestCases.GmailLogIn --&gt;
-      &lt;class name=&quot;TestCases.GmailCreate&quot;&gt;
+      &lt;/class&gt; &lt;!-- TestCases.SingUpTest --&gt;
+      &lt;class name=&quot;TestCases.SignInTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;logInCreate&quot;/&gt;
+          &lt;include name=&quot;signIn&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- TestCases.GmailCreate --&gt;
+      &lt;/class&gt; &lt;!-- TestCases.SignInTest --&gt;
+      &lt;class name=&quot;TestCases.FlashPlayerWork&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;flashPlayerWork&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestCases.FlashPlayerWork --&gt;
+      &lt;class name=&quot;TestCases.SearchTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;searchTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestCases.SearchTest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- googleTest --&gt;
-&lt;/suite&gt; &lt;!-- google --&gt;
+  &lt;/test&gt; &lt;!-- spotifyUITest --&gt;
+&lt;/suite&gt; &lt;!-- spotify --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-google" class="panel">
+        <div panel-name="testlist-spotify" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for google</span>
+            <span class="header-content">Tests for spotify</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">googleTest (2 classes)</span>
+                <span class="test-name">spotifyUITest (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-google" class="panel">
+        <div panel-name="group-spotify" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for google</span>
+            <span class="header-content">Groups for spotify</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-google" class="panel">
+        <div panel-name="times-spotify" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for google</span>
+            <span class="header-content">Times for spotify</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_google');
-function tableData_google() {
+suiteTableInitFunctions.push('tableData_spotify');
+function tableData_spotify() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -217,101 +240,91 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logIn')
-data.setCell(0, 2, 'TestCases.GmailLogIn')
-data.setCell(0, 3, 5473);
+data.setCell(0, 1, 'signIn')
+data.setCell(0, 2, 'TestCases.SignInTest')
+data.setCell(0, 3, 18318);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logInCreate')
-data.setCell(1, 2, 'TestCases.GmailCreate')
-data.setCell(1, 3, 4202);
-window.suiteTableData['google']= { tableData: data, tableDiv: 'times-div-google'}
+data.setCell(1, 1, 'signIn')
+data.setCell(1, 2, 'TestCases.SignInTest')
+data.setCell(1, 3, 1);
+window.suiteTableData['spotify']= { tableData: data, tableDiv: 'times-div-spotify'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
-              <div id="times-div-google">
-              </div> <!-- times-div-google -->
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-spotify">
+              </div> <!-- times-div-spotify -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-google" class="panel">
+        <div panel-name="reporter-spotify" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for google</span>
+            <span class="header-content">Reporter output for spotify</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-google" class="panel">
+        <div panel-name="ignored-methods-spotify" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">TestCases.GmailLogIn</span>
+              <span class="ignored-class-name">TestCases.FlashPlayerWork</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">logout</span>
+                <span class="ignored-method-name">flashPlayerWork</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">TestCases.GmailCreate</span>
+              <span class="ignored-class-name">TestCases.SearchTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">loginCreateDone</span>
+                <span class="ignored-method-name">searchTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.SingUpTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">signUp</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-google" class="panel">
+        <div panel-name="chronological-spotify" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.GmailLogIn</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestCases.SignInTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">6742 ms</span>
+                <span class="method-start">3643 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">logIn(remoteITUniversity)</span>
-                <span class="method-start">9294 ms</span>
+                <span class="method-name">signIn(zaman_5213, Shahnewaz1@123)</span>
+                <span class="method-start">4671 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">14768 ms</span>
+                <span class="method-start">22989 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">14769 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.GmailCreate</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">18429 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">24192 ms</span>
+                <span class="method-start">22990 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">logInCreate</span>
-                <span class="method-start">26982 ms</span>
+                <span class="method-name">signIn(null, null)</span>
+                <span class="method-start">25067 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">31185 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-method after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">31185 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
